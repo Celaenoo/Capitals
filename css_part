@@ -1,0 +1,61 @@
+body{
+    background-image: url(world.png);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    justify-self: center;
+}
+
+.country{
+    color: #FF8000;
+    border: 1px solid #FFF7F0;
+    border-radius: 10px;
+    background-color: #FFF7F0;
+    position: absolute;
+}
+
+.capital{
+    color: #FFF7F0;
+    border: 1px solid #FF8000;
+    border-radius: 10px;
+    background-color: #FF8000;
+    z-index: 1;
+}
+
+.country, .capital{
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 10px;
+    backface-visibility: hidden;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+}
+
+.daddyCountry{
+    transition-duration: 2s;
+    transform-style: preserve-3d;
+}
+
+.capital{
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+
+.daddyCountry:hover{
+    transform: rotateY(180deg);
+}
