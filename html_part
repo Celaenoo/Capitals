@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Capitals</title>
+        <link rel="stylesheet" href="Design.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>What is the capital of...</h1>
+        <div class="container">
+            <div class="daddyCountry">            
+                <div class="country"><p>Mexico</p></div>
+                <div class="capital"><p>Mexico</p></div>
+            </div>
+            <div class="daddyCountry">
+                <div class="country"><p>Popua New Guinea</p></div>
+                <div class="capital"><p>Port Moresby</p></div>
+            </div>
+            <div class="daddyCountry">
+                <div class="country"><p>Iceland</p></div>
+                <div class="capital"><p>Reykjavik</p></div>
+            </div>
+            <div class="daddyCountry">    
+                <div class="country"><p>South Korea</p></div>
+                <div class="capital"><p>Seoul</p></div>
+            </div>
+            <div class="daddyCountry">
+                <div class="country"><p>Sweden</p></div>
+                <div class="capital"><p>Stockholm</p></div>
+            </div>
+            <div class="daddyCountry">
+                <div class="country"><p>Georgia</p></div>
+                <div class="capital"><p>Tbilissi</p></div>
+            </div>
+            <div class="daddyCountry">
+                <div class="country"><p>Honduras</p></div>
+                <div class="capital"><p>Tegucigalpa</p></div>
+            </div>
+            <div class="daddyCountry">
+                <div class="country"><p>Tunisia</p></div>
+                <div class="capital"><p>Tunis</p></div>
+            </div>
+            <div class="daddyCountry">
+                <div class="country"><p>Austria</p></div>
+                <div class="capital"><p>Vienne</p></div>
+            </div>
+        </div>
+    </body>
+</html>
